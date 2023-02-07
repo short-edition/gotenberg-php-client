@@ -1,5 +1,5 @@
 {
-  "name": "thecodingmachine/gotenberg-php-client",
+  "name": "short-edition/gotenberg-php-client",
   "description": "A client for sending files to a Gotenberg API",
   "keywords" : [
     "Gotenberg",
@@ -25,9 +25,9 @@
     "php" : ">=7.1",
     "psr/http-message": "^1.0",
     "php-http/client-implementation": "^1.0",
-    "php-http/httplug": ">=1.0",
+    "php-http/httplug": "^1.0 || ^2.0",
     "php-http/discovery": "^1.0",
-    "guzzlehttp/psr7": "^1.4.2",
+    "guzzlehttp/psr7": "^1.4.2 || ^2.4",
     "php-http/message": "^1.0"
   },
   "require-dev" : {
